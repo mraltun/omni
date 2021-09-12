@@ -1,2 +1,2 @@
 # omni
-Omnifood
+HTML and CSS project
