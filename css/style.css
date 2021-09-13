@@ -1,6 +1,7 @@
+/* Universal */
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -9,7 +10,7 @@ body {
 }
 
 .container {
-    margin: 0 auto;
+  margin: 0 auto;
 }
 
 /* PRODUCT */
@@ -36,11 +37,13 @@ body {
   color: #777;
 }
 
-.more-info:link, .more-info:visited {
+.more-info:link,
+.more-info:visited {
   color: black;
 }
 
-.more-info:hover, .more-info:active {
+.more-info:hover,
+.more-info:active {
   text-decoration: none;
 }
 
