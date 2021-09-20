@@ -17,7 +17,7 @@
  Tins:
  Shades:
  Accents:
- Greys: #555
+ Greys: #555 #333
 
  5) Shadows
 
@@ -36,9 +36,43 @@
   box-sizing: border-box;
 }
 
+html {
+  /* Font-size: 10px;
+  10 / 16 = 0.625 = 62.5%s
+  Percentage of user's browser font-size setting  */
+  font-size: 62.5%;
+}
+
 body {
   font-family: sans-serif;
   line-height: 1;
   font-weight: 400;
   color: #555;
+}
+
+.hero {
+  max-width: 130rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+.heading-primary {
+  font-size: 5.2rem;
+  font-weight: 700;
+  line-height: 1.05;
+  color: #333;
+  letter-spacing: -0.5px;
+  margin-bottom: 3.2rem;
+}
+
+.hero-description {
+  font-size: 2rem;
+  line-height: 1.6;
+  margin-bottom: 4.8rem;
+}
+
+.hero-img {
+  width: 100%;
 }
