@@ -1,73 +1,44 @@
-/* Universal */
+/* 
+
+1) Typography
+
+-Font Sizes (px):
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+ -Font Weights:
+ Default: 400
+
+ -Line Heights:
+
+
+2) Colors
+
+ Primary: #e67e22
+ Tins:
+ Shades:
+ Accents:
+ Greys: #555
+
+ 5) Shadows
+
+ 6) Border-radius
+
+ 7) Whitespace
+
+-Spacing System (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+*/
+
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
   font-family: sans-serif;
-  line-height: 1.4;
-}
-
-.container {
-  margin: 0 auto;
-}
-
-/* PRODUCT */
-.product {
-  border: 4px solid #000;
-}
-
-.product-title {
-  text-align: center;
-  font-size: 22px;
-  text-transform: uppercase;
-  background-color: #f7f7f7;
-}
-
-/* PRODUCT INFORMATION */
-.price {
-  font-size: 24px;
-}
-
-.shipping {
-  font-size: 12px;
-  text-transform: uppercase;
-  font-weight: bold;
-  color: #777;
-}
-
-.more-info:link,
-.more-info:visited {
-  color: black;
-}
-
-.more-info:hover,
-.more-info:active {
-  text-decoration: none;
-}
-
-/* PRODUCT DETAILS */
-.details-title {
-  text-transform: uppercase;
-  font-size: 16px;
-}
-
-.details-list {
-  list-style: square;
-}
-
-/* BUTTON */
-.add-cart {
-  background-color: #000;
-  border: none;
-  color: #fff;
-  font-size: 20px;
-  text-transform: uppercase;
-  cursor: pointer;
-}
-
-.add-cart:hover {
-  color: #000;
-  background-color: #fff;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
 }
