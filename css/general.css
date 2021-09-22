@@ -36,7 +36,8 @@
 
  6) Border-radius
 
- Default 9px
+ Default: 9px
+ Medium: 11px
 
  7) Whitespace
 
@@ -172,4 +173,8 @@ body {
 /* Special helper class */
 .margin-right-sm {
   margin-right: 1.6rem !important;
+}
+
+strong {
+  font-weight: 500;
 }
